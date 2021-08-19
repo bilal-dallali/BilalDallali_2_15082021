@@ -1,0 +1,64 @@
+/* GENERAL */
+*
+{
+    font-family: Raleway, sans-serif;
+}
+
+/* NAVIGATION BAR */
+nav
+{
+    height: 100px;
+}
+.linkbis-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo
+{
+    width: 120px;
+    height: 50px;
+    margin-bottom: 7px;
+}
+.links
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link
+{
+    text-decoration: none;
+}
+.linksbis
+{
+    width: 45%;
+}
+.linkbis-1
+{
+    width: 140px;
+    height: 99px;
+}
+.link-2
+{
+    color: #0065fc;
+}
+.link-3
+{
+    color: #000;
+}
+.hosting
+{
+    border-top: 1px solid #0065fc;
+}
+.activities, .subscriptions
+{
+    border-top: 1px solid transparent;
+}
