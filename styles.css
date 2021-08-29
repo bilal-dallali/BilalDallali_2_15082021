@@ -2,12 +2,8 @@
 body
 {
     margin-top: 0;
-}
-*
-{
+    /*margin-left: 15px;*/
     font-family: 'Raleway', sans-serif;
-    margin-top: 0;
-    /*padding-left: 5px;*/
 }
 .flexCentre
 {
@@ -103,10 +99,14 @@ body
 }
 
 /* HEADER */
+header
+{
+    margin-left: 10px;
+}
 .borderSearch
 {
     width: 400px;
-    /*border-radius: 10px;*/
+    border-radius: 10px;
     border: 0.5px solid #f2f2f2;
 }
 .paddingSearch
@@ -134,4 +134,55 @@ body
     color: white;
     cursor: pointer;
     border-radius: 0 10px 10px 0;
+}
+
+/* FILTER */
+.margFilter
+{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.filter
+{
+    display: flex;
+    align-items: center;
+}
+.margFilterTitle
+{
+    margin-right: 20px;
+}
+.filterTextIcons
+{
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.filterTextIcons:hover > .filterText
+{
+    color: #0065fc;
+}
+.filterTextIcons:hover > .filterIcons
+{
+    color: white;
+    background-color: #0065fc;
+}
+.filterText
+{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+.filterIcons
+{
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #deebff;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
 }
