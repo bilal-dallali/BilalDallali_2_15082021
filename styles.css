@@ -3,7 +3,7 @@ body
 {
     margin-top: 0;
     /*margin-left: 15px;*/
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
 }
 .flexCentre
 {
@@ -182,7 +182,19 @@ header
     height: 52px;
     color: #0065fc;
     background-color: #deebff;
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
+}
+
+/* INFO */
+.info
+{
+    display: flex;
+    align-items: center;
+}
+.divIcon
+{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-right: 5px;
 }
