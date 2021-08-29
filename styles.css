@@ -30,7 +30,6 @@ body
 {
     font-weight: bold;
 }
-
 .colorBlue
 {
     color: #0065fc;
@@ -173,6 +172,7 @@ header
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 0 25px 25px 0;
+    font-weight: bolder;
 }
 .filterIcons
 {
@@ -197,4 +197,187 @@ header
     border: 2px solid #f2f2f2;
     border-radius: 25px;
     margin-right: 5px;
+}
+
+/* HOSTING SECTION */
+#hosting
+{
+    margin-top: 37px;
+    margin-left: 10px;
+}
+.hosting
+{
+    height: 650px;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 2;
+}
+.hosting h4
+{
+    font-weight: bold;
+    font-size: 1.5em;
+    /*margin: 20px 0;*/
+}
+.hosting-links-part
+{
+    background-color: #fff;
+    width: 30%;
+    height: auto;
+    padding: 1%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hosting-links-part:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.bloc1
+{
+    margin-bottom: 10px;
+}
+.imgHosting1
+{
+    background-image: url("images/cannebière.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHosting2
+{
+    background-image: url("images/port.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHosting3
+{
+    background-image: url("images/mouettes.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.bloc2
+{
+    margin-top: 10px;
+}
+.imgHosting4
+{
+    background-image: url("images/mer.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHosting5
+{
+    background-image: url("images/panier.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHosting6
+{
+    background-image: url("images/amina.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+h3
+{
+    font-size: 1.17em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: bold;
+}
+.detailsHosting
+{
+    width: 90%;
+}
+
+/* POPULARITY */
+.popularity
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;/*doute*/
+    border-radius: 10px;
+    display: block;
+}
+.bloc3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.blocPopularity
+{
+    background-color: #fff;
+    height: auto;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+}
+.blocPopularity:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.blocPopularity12
+{
+    margin-bottom: 22px;
+}
+.imgPopularity1
+{
+    background-image: url("images/matin.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.imgPopularity2
+{
+    background-image: url("images/eau.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.imgPopularity3
+{
+    background-image: url("images/bleublanc.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.detailsPopularity
+{
+    width: 60%;
+    padding-left: 5%;
 }
