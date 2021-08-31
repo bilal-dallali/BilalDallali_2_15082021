@@ -2,8 +2,8 @@
 body
 {
     margin-top: 0;
-    /*margin-left: 15px;*/
     font-family: 'Raleway';
+    background-color: white;
 }
 .flexCentre
 {
@@ -204,6 +204,7 @@ header
 {
     margin-top: 37px;
     margin-left: 10px;
+    margin-bottom: 50px;
 }
 .hosting
 {
@@ -380,4 +381,124 @@ h3
 {
     width: 60%;
     padding-left: 5%;
+}
+
+/* ACTIVITIES */
+#activities
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.activities
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.blocActivities
+{
+    width: 100%;
+    height: 600px;
+}
+.cubeActivities
+{
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.blocActivities2356
+{
+    width: 23%;
+    height: 600px;/* !!!*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cubeActivities2356
+{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.titleActivities
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+    width: 95%;
+    height: 70px;
+}
+.imgActivities1
+{
+    background-image: url('images/vieux_port.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0;
+}
+.imgActivities2
+{
+    background-image: url('images/pomégues.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 240px;
+    border-radius: 15px 15px 0 0;
+}
+.imgActivities3
+{
+    background-image: url('images/frioul.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 180px;
+    border-radius: 15px 15px 0 0;
+}
+.imgActivities4
+{
+    background-image: url('images/calanques.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0;
+}
+.imgActivities5
+{
+    background-image: url('images/notre_dame.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 180px;
+    border-radius: 15px 15px 0 0;
+}
+.imgActivities6
+{
+    background-image: url('images/parc.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 240px;
+    border-radius: 15px 15px 0 0;
+}
+.cubeActivities:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.cubeActivities2356:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
 }
