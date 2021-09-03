@@ -559,4 +559,14 @@ footer .columns
         min-height: auto;
         padding: 20px;
     }
+    .tabletSizeTitlePop
+    {
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 929px){
+    .mobileFilterWrap
+    {
+        flex-direction: column;
+    }
 }
