@@ -68,7 +68,7 @@ body
 }
 .sizeLinks
 {
-    width: 45%;
+    width: 100%;
 }
 .colorLink13
 {
@@ -81,6 +81,10 @@ body
 .decorationNone
 {
     text-decoration: none;
+}
+.sizeLink12
+{
+    margin-left: 60%;
 }
 .sizeLink
 {
@@ -204,6 +208,7 @@ header
     margin-top: 37px;
     margin-left: 10px;
     margin-bottom: 50px;
+    margin-right: 10px;
 }
 .hosting
 {
@@ -323,7 +328,7 @@ h3
     padding-right: 20px;
     flex: 1;
     height: 650px;
-    margin-left: 20px;/*doute*/
+    margin-left: 10px;
     border-radius: 10px;
     display: block;
 }
@@ -516,7 +521,6 @@ footer .columns
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
 }
 .column
 {
@@ -533,4 +537,26 @@ footer .columns
     text-decoration: none;
     color: #000;
     cursor: pointer;
+}
+
+/* PARTIE MOBILE RESPONSIVE */
+@media screen and (max-width: 1295px){
+    .sizeLink12
+    {
+        margin-left: 35%;
+    }
+    .detailsHosting
+    {
+        min-height: 150px;
+    }
+    .sizeHostings
+    {
+        min-height: auto;
+        padding: 20px;
+    }
+    .sizePopularity
+    {
+        min-height: auto;
+        padding: 20px;
+    }
 }
