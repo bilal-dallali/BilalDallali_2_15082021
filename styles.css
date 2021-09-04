@@ -540,7 +540,7 @@ footer .columns
 }
 
 /* PARTIE MOBILE RESPONSIVE */
-@media screen and (max-width: 1295px){
+@media screen and (max-width: 929px){
     .sizeLink12
     {
         margin-left: 35%;
@@ -596,7 +596,7 @@ footer .columns
     }
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 660px){
     .sizeLinks
     {
         width: 90%;
