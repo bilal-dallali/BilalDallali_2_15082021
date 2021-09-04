@@ -595,3 +595,62 @@ footer .columns
         padding: 5%;
     }
 }
+
+@media screen and (max-width: 780px){
+    .sizeLinks
+    {
+        width: 90%;
+    }
+    .sizeLink12
+    {
+        margin-left: 20%;
+    }
+    .hosting
+    {
+        height: auto;
+    }
+    .bloc1
+    {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .bloc2
+    {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .hosting-links-part
+    {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .detailsHosting
+    {
+        min-height: auto;
+    }
+    .blocActivities
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    .cubeActivities
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .blocActivities2356
+    {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .cubeActivities2356
+    {
+        margin-bottom: 20px;
+    }
+    .imgActivities1, .imgActivities2, .imgActivities3, .imgActivities4, .imgActivities5, .imgActivities6
+    {
+        height: 200px;
+    }
+}
