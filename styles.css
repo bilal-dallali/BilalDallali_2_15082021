@@ -230,7 +230,6 @@ header
 {
     font-weight: bold;
     font-size: 1.5em;
-    /*margin: 20px 0;*/
 }
 .hosting-links-part
 {
@@ -311,7 +310,7 @@ header
     height: 120px;
     border-radius: 15px 15px 0 0;
 }
-h3
+/*h3
 {
     font-size: 1.17em;
     display: block;
@@ -320,7 +319,7 @@ h3
     margin-inline-start: 0;
     margin-inline-end: 0;
     font-weight: bold;
-}
+}*/
 .detailsHosting
 {
     width: 90%;
@@ -516,33 +515,59 @@ h3
 footer
 {
     background-color: #f2f2f2;
-    padding-left: 50px;
-    padding-bottom: 50px;
-
 }
-footer .columns
+.columns
 {
+    height: 300px;
+    margin-top: 20px;
+    /*background-color: #f2f2f2*/
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
-.column
+.column-1
 {
-    padding-right: 270px;
-    padding-top: 40px;
+    margin-left: 5%;
+    height: 150px;
+    display: block;
 }
-.column h3
+.column-2
 {
-    padding-bottom: 10px;
-    font-weight: bold;
+    height: 150px;
+    display: block;
 }
-.column a
+.column-3
+{
+    margin-right: 15%;
+    height: 150px;
+    display: block;
+}
+.column-1, .column-2, .column-3 p
+{
+    font-size: 17px;
+}
+.column-1, .column-2, .column-3 h3
+{
+    font-size: 17px;
+}
+.column-1 a
 {
     text-decoration: none;
     color: #000;
     cursor: pointer;
 }
-
+.column-2 a
+{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.column-3 a
+{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
 /* PARTIE MOBILE RESPONSIVE */
 @media screen and (max-width: 1295px){
     .popularity
@@ -656,5 +681,38 @@ footer .columns
     .imgActivities1, .imgActivities2, .imgActivities3, .imgActivities4, .imgActivities5, .imgActivities6
     {
         height: 200px;
+    }
+    .columns
+    {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+    .column-1
+    {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 600px){
+    .sizeLink
+    {
+        flex-direction: column;
+    }
+    .sizeLink12
+    {
+        order: 1;
+        width: 100%;
+        margin-left: 0;
+    }
+    .sizeLinkMobile
+    {
+        width: 50%;
+    }
+    .sizeLinks
+    {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
