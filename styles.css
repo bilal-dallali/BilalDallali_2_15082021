@@ -581,14 +581,14 @@ footer .columns
     .popularity
     {
         flex: none;
-        width: 90%;
+        width: 87.5%;
         margin-left: 0;
         padding: 5%;
     }
     .hosting
     {
         flex: none;
-        width: 90%;
+        width: 87.5%;
         margin-right: 0;
         margin-top: 50px;
         padding: 5%;
