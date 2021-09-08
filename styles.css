@@ -766,3 +766,11 @@ footer
         border-bottom: 2px solid #f2f2f2;
     }
 }
+
+@media screen and (max-width: 401px){
+    .mobileFilterWrap2
+    {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
