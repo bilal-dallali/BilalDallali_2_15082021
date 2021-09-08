@@ -608,6 +608,8 @@ footer
     {
         flex-direction: column-reverse;
         width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
     .popularity
     {
@@ -616,7 +618,7 @@ footer
         margin-left: 0;
         padding: 5%;
         background-color: #f2f2f2;
-        border-radius: 10px;
+        border-radius: 0;
     }
     .hosting
     {
