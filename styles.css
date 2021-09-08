@@ -395,6 +395,10 @@ header
     margin-right: 10px;
     margin-bottom: 10px;
 }
+#activities h2
+{
+    margin-bottom: 20px;
+}
 .activities
 {
     margin-top: 50px;
@@ -404,6 +408,7 @@ header
 {
     width: 100%;
     height: 600px;
+    margin-bottom: 25px;
 }
 .cubeActivities
 {
@@ -501,7 +506,7 @@ header
 .cubeActivities:hover
 {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .cubeActivities2356:hover
 {
@@ -697,6 +702,16 @@ footer
     .imgActivities1, .imgActivities2, .imgActivities3, .imgActivities4, .imgActivities5, .imgActivities6
     {
         height: 200px;
+    }
+    .cubeActivities:hover
+    {
+        cursor: pointer;
+        transform: scale(1.01);
+    }
+    .cubeActivities2356:hover
+    {
+        cursor: pointer;
+        transform: scale(1.01);
     }
     .columns
     {
