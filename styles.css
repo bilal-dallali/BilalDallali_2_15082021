@@ -268,6 +268,7 @@ header
     width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .imgHosting2
 {
@@ -277,6 +278,7 @@ header
     width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .imgHosting3
 {
@@ -286,6 +288,7 @@ header
     width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .bloc2
 {
@@ -299,6 +302,7 @@ header
     width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .imgHosting5
 {
@@ -308,6 +312,7 @@ header
     width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .imgHosting6
 {
@@ -317,6 +322,7 @@ header
     width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .detailsHosting
 {
@@ -363,6 +369,7 @@ header
     width: 35%;
     height: 160px;
     border-radius: 15px 0 0 15px;
+    object-fit: cover;
 }
 .imgPopularity2
 {
@@ -372,6 +379,7 @@ header
     width: 35%;
     height: 160px;
     border-radius: 15px 0 0 15px;
+    object-fit: cover;
 }
 .imgPopularity3
 {
@@ -381,6 +389,7 @@ header
     width: 35%;
     height: 160px;
     border-radius: 15px 0 0 15px;
+    object-fit: cover;
 }
 .detailsPopularity
 {
@@ -457,6 +466,7 @@ header
     width: 100%;
     height: 530px;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .imgActivities2
 {
@@ -466,6 +476,7 @@ header
     width: 100%;
     height: 240px;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .imgActivities3
 {
@@ -475,6 +486,7 @@ header
     width: 100%;
     height: 180px;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .imgActivities4
 {
@@ -484,6 +496,7 @@ header
     width: 100%;
     height: 530px;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .imgActivities5
 {
@@ -493,6 +506,7 @@ header
     width: 100%;
     height: 180px;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .imgActivities6
 {
@@ -502,6 +516,7 @@ header
     width: 100%;
     height: 240px;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .cubeActivities:hover
 {
